@@ -3,7 +3,7 @@ export default function Home() {
     <div id="home" className="relative h-screen w-screen overflow-hidden">
       {/* Background Image */}
       <img
-        src="/src/assets/BG_HOME.png"
+        src="/static/images/BG_HOME.png"
         alt="brand"
         className="h-screen w-full object-cover"
       ></img>
@@ -11,7 +11,7 @@ export default function Home() {
       {/* Overlay text & logo */}
       <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
         <img
-          src="src/assets/WELL_RENDERS_2.png"
+          src="/static/images/WELL_RENDERS_2.png"
           alt=""
           className="h-auto w-[400px] mb-0 object-contain"
           style={{ marginBottom: "-60px" }} //cool hack to fix the gap below logo
