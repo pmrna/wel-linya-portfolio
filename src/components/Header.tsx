@@ -61,7 +61,7 @@ const Header = () => {
         </ul>
 
         <img
-          src="/static/images/WELL_RENDERS_2.png"
+          src="src/assets/WELL_RENDERS_2.png"
           className="h-14 object-contain flex items-end"
           alt="Logo"
         />

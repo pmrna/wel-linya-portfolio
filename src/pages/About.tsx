@@ -3,7 +3,7 @@ export default function About() {
     <div id="about" className="relative h-screen w-screen overflow-hidden">
       {/* Background Image */}
       <img
-        src="/static/images/BG_ABOUT.png"
+        src="/src/assets/BG_ABOUT.png"
         alt="brand"
         className="h-screen w-full object-cover"
       ></img>
