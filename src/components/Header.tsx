@@ -8,13 +8,13 @@ const Header = () => {
 
   return (
     <header className="z-[999] relative">
-      <nav className="bg-[#0d0b04] flex fixed top-0 w-full h-16 items-center justify-between px-[50px]">
+      <nav className="bg-[#0d0b04] flex h-16 items-center justify-center w-screen gap-x-[1000px]">
         {/* Menu */}
         <ul className="hidden md:flex space-x-14">
           {links.map((link) => (
             <li
               key={link.hash}
-              className="font-roboto font-medium text-[12px] text-white"
+              className="font-roboto font-medium text-[12px] text-neutral-200"
             >
               <Link
                 to={link.hash}
@@ -30,7 +30,7 @@ const Header = () => {
         </ul>
 
         {/* Hamburger menu */}
-        <div onClick={handleClick} className="md:hidden z-10 text-white">
+        <div onClick={handleClick} className="md:hidden z-10 text-neutral-200">
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
@@ -45,7 +45,7 @@ const Header = () => {
           {links.map((link) => (
             <li
               key={link.hash}
-              className="font-roboto font-medium text-4xl text-white py-6"
+              className="font-roboto font-medium text-4xl text-neutral-200 py-6"
             >
               <Link
                 to={link.hash}
@@ -62,7 +62,7 @@ const Header = () => {
 
         <img
           src="/static/images/WELL_RENDERS_2.png"
-          className="h-14 object-contain flex items-end"
+          className="h-14 object-contain"
           alt="Logo"
         />
       </nav>

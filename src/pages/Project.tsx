@@ -20,7 +20,7 @@ export default function Project() {
   return (
     <div
       id="projects"
-      className="mx-[3.125rem] font-roboto text-white text-2xl md:text-4xl"
+      className="mx-[3.125rem] font-roboto text-neutral-200 text-2xl md:text-4xl"
     >
       <div className="flex justify-center">
         <h1 className="font-archivo font-bold text-[#cdcdcd] border-b-2 border-[#cdcdcd] w-fit text-center mb-10">
@@ -153,7 +153,7 @@ function Modal({
         {children}
         <button
           onClick={onClose}
-          className="absolute top-0 -right-10 text-white text-3xl"
+          className="absolute top-0 -right-10 text-neutral-200 text-3xl"
         >
           &times;
         </button>

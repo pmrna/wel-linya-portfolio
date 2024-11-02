@@ -7,7 +7,7 @@ import SectionDivider from "./components/SectionDivider";
 
 const App = () => {
   return (
-    <div className="bg-[#0d0b04]">
+    <div className="bg-[#0d0b04] overflow-hidden">
       <Header />
       <Home />
       <SectionDivider />
