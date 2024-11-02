@@ -19,8 +19,8 @@ export default function Home() {
         <h1 className="text-[#cdcdcd] text-4xl font-archivo font-black leading-none">
           WEL+LINYA ARCHITECTS
         </h1>
-        <h2 className="text-white text-[12px] font-roboto font-bold mt-3">
-          ARCHITECT & DESIGNER
+        <h2 className="text-neutral-200 text-[12px] font-roboto font-bold mt-3">
+          STUDENT PORTFOLIO
         </h2>
       </div>
     </div>
